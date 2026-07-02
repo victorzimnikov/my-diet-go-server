@@ -1,0 +1,12 @@
+# build
+server
+
+# configs
+.env*
+
+# public files
+/storage/**/*
+!/storage/config.go
+
+# tests
+/coverage
